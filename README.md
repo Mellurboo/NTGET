@@ -30,12 +30,6 @@ Github: **Create an issue** if you have a problem and myself or knowlagable memb
 
 
 ## Technology Used
-**Installer:**
-![C](https://img.shields.io/badge/c-%2300599C.svg?style=for-the-badge&logo=c&logoColor=white)
-
-Many languages could've been used here but I find C very good when calling upon the WIN32API
-
-**NTGET Client**
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 
 Rust Is chosen due to its robustness and speed, also due to its I/O and Networking capabilities
