@@ -1,1 +1,0 @@
-C:\Users\Mellu\Documents\GitHub\NTGET\installer\target\debug\installer.exe: C:\Users\Mellu\Documents\GitHub\NTGET\installer\src\helper\pause.rs C:\Users\Mellu\Documents\GitHub\NTGET\installer\src\main.rs

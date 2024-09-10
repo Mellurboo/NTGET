@@ -5,11 +5,11 @@
 echo Cleaning previous builds...
 rmdir /S /Q build
 rmdir /S /Q target
-mkdir build
 if "%~1"=="c" goto cleanexit
 
 :: Building Rust Binaries ::
 echo beginning rust build
+mkdir build
 cargo build
 if %ERRORLEVEL% neq 0 (
     echo rust failed to compile the installer, returning error code: %ERRORLEVEL%

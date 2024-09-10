@@ -1,5 +1,6 @@
 # Installer Directory
-Installer/build/
+installer/build/
+installer/target/
 
 # Client Directory
 Client/build/
