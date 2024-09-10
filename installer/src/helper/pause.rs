@@ -14,7 +14,7 @@ pub fn wait() {
     let mut stdin = io::stdin();
     let mut stdout = io::stdout();
 
-    println!("{}", "[=> Press Any Key to Continue <=]".red().bold());       // its not any key lol its only enter, ill fix that later
+    println!("{}", "[=> Press 'ENTER' Key to Continue <=]".red().bold());       // its not any key lol its only enter, ill fix that later
     stdout.flush().unwrap();
 
     let _ = stdin.read(&mut [0u8]).unwrap();

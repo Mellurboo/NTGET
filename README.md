@@ -33,6 +33,9 @@ Github: **Create an issue** if you have a problem and myself or knowlagable memb
 ![Rust](https://img.shields.io/badge/rust-%23000000.svg?style=for-the-badge&logo=rust&logoColor=white)
 
 Rust Is chosen due to its robustness and speed, also due to its I/O and Networking capabilities
+this makes NTGET perfect for servers due to its stability!
+
+The NTGET Installer uses C for a very specific funtion as I hate rusts WINAPI implementaion. so i went through the hastle of cross compiling.
 
 
 ## License 

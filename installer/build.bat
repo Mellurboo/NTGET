@@ -38,6 +38,7 @@ echo results found in the /build/ directory
 pause
 cls
 cargo run
+if %ERRORLEVEL% neq 0 pause
 exit /b 0
 
 :: if the user only wanted to run the clean command ::
