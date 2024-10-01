@@ -3,4 +3,5 @@ installer/build/
 installer/target/
 
 # Client Directory
-Client/build/
+client/build/
+client/target/

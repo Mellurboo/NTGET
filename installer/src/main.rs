@@ -47,18 +47,17 @@ fn main() {
         let result = ntpath();
         println!("{}", "Attempting to write to System PATH variable".yellow());
         match result {
-             0 => println!("{}", "Wrote to System PATH Successfully!".green().bold()),
+             0 => println!("{}", "Wrote to System PATH Successfully! Please restart your system to take effect".green().bold()),
              1 => println!("{}", "There was an error getting the system PATH".red().bold()),
             -1 => println!("{}", "The path is already in the system PATH, moving on".green().bold()),
             -2 => println!("{}", "The path length exceeds buffer size, sorry!".red().bold()),
             -3 => println!("{}", "Failed to open the required registry key".red().bold()),
             -4 => println!("{}", "Failed to edit PATH in registry".red().bold()),
             -5 => println!("{}", "Failed to get updated PATH to confirm the updated path".red().bold()),
-            _ => println!("{}\n\treturned: {}", ":/ got a bad code in return , no status can be provided, check PATH manually!".red().bold(), result),
+            _ => println!("{}\n\treturned: {}", ":/ got a bad code in return , no status can be provided, check PATH and NTGET install manually!".red().bold(), result),
         }
     }
-    
-    // downloading the NTGET client to C:\NTGET\bin
 
+    // downloading the NTGET client to C:\NTGET\bin
     wait();
 }

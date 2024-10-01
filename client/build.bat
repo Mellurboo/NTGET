@@ -32,6 +32,16 @@ if %ERRORLEVEL% neq 0 (
     exit /b %ERRORLEVEL%
 )
 
+:: Copy files to production destination ::
+echo moving files to C:\NTGET\bin\
+copy build.exe\*.exe C:\NTGET\bin\
+
+if %ERRORLEVEL% neq 0 (
+    echo failed to copy binaries to production folder C:\NTGET\
+    echo assuming the build completed successfully it should either be in target\ or the build\ folder in the source
+    pause
+)
+
 :: Done ! ::
 echo build and copy completed successfully
 echo results found in the /build/ directory
@@ -43,5 +53,5 @@ exit /b 0
 
 :: if the user only wanted to run the clean command ::
 :cleanexit
-echo installer clean complete. the script will now finish!
+echo client clean complete. the script will now finish!
 exit /b 0
