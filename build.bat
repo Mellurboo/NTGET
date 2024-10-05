@@ -8,4 +8,4 @@ cd..
 :: Building the NTGET client ::
 cd client
 .\build.bat
-:: End NTGET Client
+:: End NTGET Client ::
